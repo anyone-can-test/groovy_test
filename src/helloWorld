@@ -1,0 +1,22 @@
+#!/usr/bin/env groovy
+println("Hello world")
+for (a in this.args) {
+	println("Argument: " + a)
+}
+
+
+square = {it * it}
+
+println(square(9))
+
+
+println([1, 2, 3, 4].collect(square))
+
+fullString = ""
+orderParts = ["BUY", 200, "Hot Dogs", "1"]
+orderParts.each {
+  fullString += it + " "
+  }
+
+  println fullString
+
