@@ -28,9 +28,3 @@ println xml
 
 
 
-// String convenience methods
-
-str = "It's rainy day in Seattle"
-println str
-str -= "rainy "
-println str
