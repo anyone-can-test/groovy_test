@@ -1,0 +1,27 @@
+#!/usr/bin/env groovy
+
+// With the ability to defer arguments' type verification to runtime
+// polymorphism in Groovy is on steroids.
+
+
+// compile-type type-chicking
+// (Java) 부자연스럽고
+// 점점 그 중요성이 감소하고 있다.
+
+// the static type-checking amounts to mere annoyance and lowers our producitivity.
+
+
+// Dynamic Typing
+// - We let the language figure out the type based on the context.
+// - a greater degree of polymorphism
+// - less casting
+
+
+// Dynamic Typing != Weak Typing
+// If we listen closely we may hear the compiler laugh for
+// our reliance on the type safety it pretends to provide.
+// This is an example of static typing with weak typing at runtime.
+
+
+
+
